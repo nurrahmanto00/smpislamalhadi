@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.AppSmpp.smpislamalhadimojolaban">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMPISLAMALHADIMOJOLABAN">
+        <activity
+            android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".ProfilActivity">
+
+        </activity>
+        <activity
+            android:name=".GurudanstaffActivity">
+
+        </activity>
+        <activity
+            android:name=".EkstrakurikulerActivity">
+
+        </activity>
+        <activity
+            android:name=".FasilitasActivity">
+
+        </activity>
+        <activity
+            android:name=".EperpusActivity">
+
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EperpusActivity"
+    android:background="@drawable/bgmenu">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bgbar" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/leftarrow"
+            android:onClick="backeperpusclick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cooperblack"
+            android:layout_marginRight="15dp"
+            android:text="E-PERPUS"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cooperblack"
+            android:text="VII"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PAI"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viipaiclick"
+                            android:src="@drawable/viipai"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/kuning"
+                    android:background="@drawable/bgaleri"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="bahasa indonesia"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viibindoclick"
+                            android:src="@drawable/viibindo"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPA Semester 1"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiipas1click"
+                            android:src="@drawable/viiipas1"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPA Semester 2"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiipas2click"
+                            android:src="@drawable/viiipas2"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Prakarya"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiprakaryaclick"
+                            android:src="@drawable/viiprakarya"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Seni Budaya"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viisenbudclick"
+                            android:src="@drawable/viisenbud"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Penjasorkes"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viipjokclick"
+                            android:src="@drawable/viipjok"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PPKN"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viipknclick"
+                            android:src="@drawable/viipkn"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Bahasa Inggris"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viibingclick"
+                            android:src="@drawable/viibing"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Matematika"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viimatematikaclick"
+                            android:src="@drawable/viimtk"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/kuning"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPS"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiipsclick"
+                            android:src="@drawable/viiips"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cooperblack"
+            android:text="VIII"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PAI"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiipaiclick"
+                            android:src="@drawable/viiipai"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="bahasa indonesia"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiibindoclick"
+                            android:src="@drawable/viiibindo"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPA"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiiipaclick"
+                            android:src="@drawable/viiiipa"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Prakarya"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiiprakaryaclick"
+                            android:src="@drawable/viiiprakarya"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Seni Budaya"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiisenbudclick"
+                            android:src="@drawable/viiisenbud"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Penjasorkes"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiipjokclick"
+                            android:src="@drawable/viiipjok"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PPKN"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiipknclick"
+                            android:src="@drawable/viiipkn"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Bahasa Inggris"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiibingclick"
+                            android:src="@drawable/viiibing"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Matematika"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiimatematikaclick"
+                            android:src="@drawable/viiimtk"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/hijau"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPS"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="viiiipsclick"
+                            android:src="@drawable/viiiips"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cooperblack"
+            android:text="IX"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PAI"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixpaiclick"
+                            android:src="@drawable/ixpai"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="bahasa indonesia"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixbindoclick"
+                            android:src="@drawable/ixbindo"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPA"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixipaclick"
+                            android:src="@drawable/ixipa"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Prakarya"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixprakaryaclick"
+                            android:src="@drawable/ixprakarya"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Seni Budaya"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixsenbudclick"
+                            android:src="@drawable/ixsenbud"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Penjasorkes"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixpjokclick"
+                            android:src="@drawable/ixpjok"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="PPKN"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixpknclick"
+                            android:src="@drawable/ixpkn"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Bahasa Inggris"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixbingclick"
+                            android:src="@drawable/ixbing"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Matematika"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixmatematikaclick"
+                            android:src="@drawable/ixmtk"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgaleri"
+                    android:backgroundTint="@color/teal_200"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="120dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="IPS"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/cooperblack"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="ixipsclick"
+                            android:src="@drawable/ixips"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

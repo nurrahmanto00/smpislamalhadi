@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EkstrakurikulerActivity"
+    android:background="@drawable/bgmenu">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bgbar" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/leftarrow"
+            android:onClick="backekstrakurikulerclick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cooperblack"
+            android:layout_marginRight="15dp"
+            android:text="EKSTRAKURIKULER"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="230dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/eks1"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/bgaleri">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PASKIBRA"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/cooperblack"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="230dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/eks2"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/bgaleri">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="TAPAKSUCI"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/cooperblack"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="230dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/eks3"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/bgaleri">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PRAMUKA"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/cooperblack"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="230dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/eks4"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/bgaleri">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="MUSIK"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/cooperblack"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

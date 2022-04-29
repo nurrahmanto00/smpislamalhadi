@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/drawable/bgaleri.xml" value="0.186" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/drawable/bgbar.xml" value="0.1875" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/drawable/bggaleri.xml" value="0.186" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/drawable/bgmenu.xml" value="0.186" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/drawable/ic_launcher_background.xml" value="0.186" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_ekstrakurikuler.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_eperpus.xml" value="0.25" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_fasilitas.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_gurudanstaff.xml" value="0.22" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_main.xml" value="0.23087719298245615" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_profil.xml" value="0.2918918918918919" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_splash.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/activity_tab.xml" value="0.22" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/fragment1.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/fragment2.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/fragment3.xml" value="0.1" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/fragment_1.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/fragment_2.xml" value="0.225" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/layout/fragment_3.xml" value="0.2109375" />
+        <entry key="..\:/SMPISLAMALHADIMOJOLABAN/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.105" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgaleri"
+    tools:context=".ProfilActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bgbar" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/leftarrow"
+            android:onClick="backprofilclick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cooperblack"
+            android:layout_marginRight="15dp"
+            android:text="PROFIL"
+            />
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/romanbold"
+                    android:gravity="center"
+                    android:text="PROFIL SEKOLAH"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/romanbold"
+                    android:text="A.Identitas Sekolah"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Nama Sekolah		: SMP ISLAM AL-HADI"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Kepala Sekolah	: Riyan Wik Irawan, S.Pd."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Alamat			: Mojolaban-Sukoharjo"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="RT/RW  : 03/10"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Kecamatan		: Kec. Mojolaban"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Provinsi		: Prov. Jawa Tengah"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Tahun Berdiri		: 1998"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Akreditasi		: A"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="NPSN			: 20310737"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Telepon  : 085702100111"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Website		: https://smpislamalhadimojolaban.sch.id/ "
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Email  : smpislamalhadimojolaban@gmail.com"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/romanbold"
+                    android:text="B.Letak Geografis"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Jl. Raya Solo Tawangmangu Km 9.5 Sapen Mojolaban Sukoharjo, Jawa tengah"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/romanbold"
+                    android:text="C.Visi Dan Misi"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Visi:"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Unggul dalam prestasi, berakhlakulkarimah, peduli lingkungan  dan mampu menguasai ilmu pengetahuan dan teknologi."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Misi :"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="Misi SMP Islam Al-Hadi Mojolaban adalah sebagai berikut:"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="1. Menjadikan SMP Islam Al Hadi Mojolaban sebagai sekolah yang unggul dalam prestasi akademik dan nonakademik. "
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="2. Meningkatkan kualitas pendidikan dengan berfokus kepada peningkatan pengetahuan keterampilan, sikap sosial, dan sikap spiritual peserta didik."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="3. Menjadikan peserta didik SMP Islam Al Hadi Mojolaban yang  cerdas, beriman,   berpengetahuan luas, bertaqwa,   berakhlak mulia dan berbudi pekerti luhur."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="4. Menjadikan SMP Islam Al Hadi Mojolaban sebagai sekolah yang terpercaya di masyarakat."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="5. Menjadikan SMP Islam Al Hadi Mojolaban sebagai sekolah Islam yang profesional dan  mengedepankan akhlak yang mulia."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="6.	Menjadikan nilai-nilai Islam sebagai landasan dalam setiap aktivitas pendidikan di SMP Islam Al Hadi Mojolaban."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="7. SMP Islam Al Hadi Mojolaban mengembangkan sikap dan perilaku religius  baik di dalam sekolah maupun di luar sekolah."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="8. Menanamkan kepedulian sosial dan lingkungan, cinta damai, cinta tanah air, semangat kebangsaan, dan hidup demokratis."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="9. Mewujudkan lingkungan sekolah yang bersih, rapi, indah dan nyaman."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/romanbold"
+                    android:text="D.Kurikulum Pelajaran"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/roman"
+                    android:text="   Kurikulum yang digunakan SMP Islam Al-Hadi adalah Kurikulum 2013. Kurikulum 2013 digunakan sejak tahun 2013 dan diterapkan untuk pembelajaran kelas VII, kelas VIII, dan kelas IX."
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

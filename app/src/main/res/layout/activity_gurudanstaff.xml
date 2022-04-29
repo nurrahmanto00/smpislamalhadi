@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GurudanstaffActivity"
+    android:background="@drawable/bgmenu">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bgbar" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/leftarrow"
+            android:onClick="backgurudanstaffclick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cooperblack"
+            android:layout_marginRight="15dp"
+            android:text="GURU DAN STAFF"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Pendidik Dan Tenaga Pendidikan"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cooperblack"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Alfian Pradana Putra"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Mapel yang diampu : Bahasa Daerah"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/roman"/>
+            </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Anis Rohmawati, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PAI"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Anto Dwi Raharjo, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Indonesia"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ari Noor Fauziyah, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Inggris"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ari Rahma Nur Fitriana, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Indonesia"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="David Andria Nova, S.Sn."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : SBK"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dewi Mahayanti, S. Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPA"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dewi Noer Cahyani, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dian Perdani, S.Pd. "
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Indonesia"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dwi Sawitri, S.Pd"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Inggris"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ely Nursalim S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PPkn"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Faridha Muranik"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PPkn"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Feri Andrianto,S.PdI."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PPkn"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Fahmi Fatah"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : tahfidz"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Gino saputro,S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Olahraga Dan Kesehatan"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Hermawati, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Matematika"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ilham Cahyadi Prasetyo, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPA"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Imron Nur Yahman S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PPkn"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Inas Khoirunnisa"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Tahfidz"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Indri Purwaningsih, S Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Indonesia"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Jumari"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Arab"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Khusnul Hidayat"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Tahfidz"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mardiayu Anggrahini, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPA"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mery Fitria Nur 'Aini, S Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Tahfidz"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mila Widyaningrum, S.Mat."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Matematika"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Muhammad Dwiyanto, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Inggris"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Muhammad Hafidh Amrulloh"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Tahfidz"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Muhammad Tavib Asbi Ashidiqi S.Kom.I"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : BP/BK"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Niken Anggarwati, S Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Indonesia"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Nisa Musthofiyatul Hasanah, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PAI"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Pargiyanto, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPA"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Riyan Wik Irawan, S Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Inggris"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Rohmad Setia Suryana, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Penjas Orkes"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sari Asih Guritno, S.SOS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : BP/Bk"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sri Hidayati, S. Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Matematika"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sri Woni  Sunarsih, S. Psi"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : BP/Bk"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sumarsono, S. Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PPkn"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Suranto, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPA"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sutopo, S.Pd, M.Pd"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tri Asmoro Evawati, S.Pd"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tumaji, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : IPS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Uci Indah Astuti, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Matematika"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ulfah Nurul Amanah, S.S."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Arab"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Usnul Khotimah, S.Pd.I"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : PAI"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Vera Damayanti, S.Pd"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Matematika"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Wahyudi"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Prakarya"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Yan Arief Darmawan, S.Pd., Gr."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Indonesia"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Yunita Lukitasari, M.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Inggris"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Budiyanto, S.Pd"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Inggris"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ratmini, S.Pd"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Bahasa Daerah"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Asnaini Dian Frilasanti, S.Pd."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mapel yang diampu : Matematika"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tenaga Pendidikan"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cooperblack"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Erfan Haryanto "
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Warseno"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Heri"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Supardi"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Anggi Maulana Caesar, S.S."
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian :PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tri Evi Nugroho"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tri Purwani"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTY"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sulastri"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgaleri"
+                android:backgroundTint="@color/kuning">
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Astutik, S.E"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Status Kepegawaian : PTY"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/roman"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
